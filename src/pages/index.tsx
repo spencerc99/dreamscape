@@ -1,8 +1,18 @@
+import { useEffect } from "react";
 import { SoundFile } from "../components/SoundFile";
 import styles from "../styles/Home.module.scss";
 import Head from "next/head";
 
+async function initPlayhtml() {
+  const playhtml = (await import("@playhtml/react")).playhtml;
+
+  playhtml.init({ room: "dreamscape" });
+}
+
 export default function Home() {
+  useEffect(() => {
+    void initPlayhtml();
+  });
   return (
     <>
       <Head>
