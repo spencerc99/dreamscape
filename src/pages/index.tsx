@@ -1,3 +1,4 @@
+import { SoundFile } from "../components/SoundFile";
 import styles from "../styles/Home.module.scss";
 import Head from "next/head";
 
@@ -10,6 +11,7 @@ export default function Home() {
       </Head>
       <main>
         <h1 className={styles.title}>Welcome to new next app!</h1>
+        <SoundFile soundUrl="/lamp-off.m4a" />
       </main>
     </>
   );

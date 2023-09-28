@@ -155,6 +155,30 @@
     tiny-glob "^0.2.9"
     tslib "^2.4.0"
 
+"@playhtml/common@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@playhtml/common/-/common-0.0.1.tgz#83052e3f299a5601aeaff59ff47ee07f15b40cfa"
+  integrity sha512-LZwo9IkvBOHnzfJ1WD0/KuWrDFFQX65nqOqrmqS5zklhhsr2zFjosnHQe0m6Gl+AtyJB1clHRs1wnHm5iDoucg==
+
+"@playhtml/common@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@playhtml/common/-/common-0.0.2.tgz#a8c0363196e6ac50f01df92811f1e281c73d58d2"
+  integrity sha512-4aJXofZ0KmbwklKlMUg5div/Ks1n0ljOR/uU6ch3e7Ixh5Jeu6Efq8+U+SKH9WZ8B3bzfhbPKL6Kmlwz41NSSQ==
+  dependencies:
+    profane-words "^1.5.10"
+
+"@playhtml/react@^0.0.15":
+  version "0.0.15"
+  resolved "https://registry.yarnpkg.com/@playhtml/react/-/react-0.0.15.tgz#a1f5647d5de08ee21d3aa7bec685ceb0b5b7f5d2"
+  integrity sha512-rAEaVfb/FCQQLzTaHxWXGWK8TMFOwsPRht66E/UqLt4qQuR433XM6PEHGOSBHbaj9eS6K1BLVGmNDGwPUTNoZA==
+  dependencies:
+    "@playhtml/common" "^0.0.2"
+    classnames "^2.3.2"
+    playhtml "^2.0.6"
+    react "^18.2.0"
+    react-dom "^18.2.0"
+    react-is "^18.2.0"
+
 "@rushstack/eslint-patch@^1.1.3":
   version "1.2.0"
   resolved "https://registry.npmjs.org/@rushstack/eslint-patch/-/eslint-patch-1.2.0.tgz"
@@ -440,6 +464,11 @@ chalk@^4.0.0:
     readdirp "~3.6.0"
   optionalDependencies:
     fsevents "~2.3.2"
+
+classnames@^2.3.2:
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.3.2.tgz#351d813bf0137fcc6a76a16b88208d2560a0d924"
+  integrity sha512-CSbhY4cFEJRe6/GQzIk5qXZ4Jeg5pcsP7b5peFSDpffpe1cqjASH/n9UTjBwOp6XpMSTwQ8Za2K5V02ueA7Tmw==
 
 client-only@0.0.1:
   version "0.0.1"
@@ -1354,6 +1383,11 @@ isexe@^2.0.0:
   resolved "https://registry.npmjs.org/isexe/-/isexe-2.0.0.tgz"
   integrity sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==
 
+isomorphic.js@^0.2.4:
+  version "0.2.5"
+  resolved "https://registry.yarnpkg.com/isomorphic.js/-/isomorphic.js-0.2.5.tgz#13eecf36f2dba53e85d355e11bf9d4208c6f7f88"
+  integrity sha512-PIeMbHqMt4DnUP3MA/Flc0HElYjMXArsw1qwJZcm9sqR8mq3l8NYizFMty0pWwE/tzIGH3EKK5+jes5mAr85yw==
+
 "js-tokens@^3.0.0 || ^4.0.0":
   version "4.0.0"
   resolved "https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz"
@@ -1411,12 +1445,24 @@ levn@^0.4.1:
     prelude-ls "^1.2.1"
     type-check "~0.4.0"
 
+lib0@^0.2.60, lib0@^0.2.74, lib0@^0.2.85:
+  version "0.2.86"
+  resolved "https://registry.yarnpkg.com/lib0/-/lib0-0.2.86.tgz#86ccc3366ca3b6f8b5d8713c03f2a67ed7bc5f3e"
+  integrity sha512-kxigQTM4Q7NwJkEgdqQvU21qiR37twcqqLmh+/SbiGbRLfPlLVbHyY9sWp7PwXh0Xus9ELDSjsUOwcrdt5yZ4w==
+  dependencies:
+    isomorphic.js "^0.2.4"
+
 locate-path@^6.0.0:
   version "6.0.0"
   resolved "https://registry.npmjs.org/locate-path/-/locate-path-6.0.0.tgz"
   integrity sha512-iPZK6eYjbxRu3uB4/WZ3EsEIMJFMqAoopl3R+zuq0UjcAm/MO6KCweDgPfP3elTztoKP3KtnVHxTn2NHBSDVUw==
   dependencies:
     p-locate "^5.0.0"
+
+lodash.debounce@^4.0.8:
+  version "4.0.8"
+  resolved "https://registry.yarnpkg.com/lodash.debounce/-/lodash.debounce-4.0.8.tgz#82d79bff30a67c4005ffd5e2515300ad9ca4d7af"
+  integrity sha512-FT1yDzDYEoYWhnSGnpE/4Kj1fLZkDFyqRb7fNt6FdYOSxlUWAtp42Eh6Wb0rGIv/m9Bgo7x4GhQbm5Ys4SG5ow==
 
 lodash.merge@^4.6.2:
   version "4.6.2"
@@ -1658,6 +1704,17 @@ picomatch@^2.0.4, picomatch@^2.2.1, picomatch@^2.3.1:
   resolved "https://registry.npmjs.org/picomatch/-/picomatch-2.3.1.tgz"
   integrity sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==
 
+playhtml@^2.0.6:
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/playhtml/-/playhtml-2.0.6.tgz#34d3aca625d542ab17278c7e6f80b3c06dbc0ed0"
+  integrity sha512-Y1/Ekkpwbalrso2cLV1iKgZql4hRT3awDIf735ozspVLeJXzA/DhLZyB5gNWGb5M3AjNUqqk+2igvqHS8YWFvg==
+  dependencies:
+    "@playhtml/common" "^0.0.1"
+    profane-words "^1.5.10"
+    y-indexeddb "^9.0.11"
+    y-partykit "^0.0.3"
+    yjs "^13.5.44"
+
 postcss@8.4.14:
   version "8.4.14"
   resolved "https://registry.npmjs.org/postcss/-/postcss-8.4.14.tgz"
@@ -1671,6 +1728,11 @@ prelude-ls@^1.2.1:
   version "1.2.1"
   resolved "https://registry.npmjs.org/prelude-ls/-/prelude-ls-1.2.1.tgz"
   integrity sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==
+
+profane-words@^1.5.10:
+  version "1.5.11"
+  resolved "https://registry.yarnpkg.com/profane-words/-/profane-words-1.5.11.tgz#3d57134f1ccedb1d1ea6fe44b52e179f7d9613e3"
+  integrity sha512-LWe0nG62ZCV2WMds+TwoDsTCGdRnlwEQY1f3rRbzENQixC1eJ3+NR3GWJRn0AWHZQnxgPR1l3CgyrQqIiUGxFA==
 
 prop-types@^15.8.1:
   version "15.8.1"
@@ -1691,7 +1753,7 @@ queue-microtask@^1.2.2:
   resolved "https://registry.npmjs.org/queue-microtask/-/queue-microtask-1.2.3.tgz"
   integrity sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==
 
-react-dom@18.2.0:
+react-dom@18.2.0, react-dom@^18.2.0:
   version "18.2.0"
   resolved "https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz"
   integrity sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==
@@ -1704,7 +1766,12 @@ react-is@^16.13.1:
   resolved "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
-react@18.2.0:
+react-is@^18.2.0:
+  version "18.2.0"
+  resolved "https://registry.yarnpkg.com/react-is/-/react-is-18.2.0.tgz#199431eeaaa2e09f86427efbb4f1473edb47609b"
+  integrity sha512-xWGDIW6x921xtzPkhiULtthJHoJvBbF3q26fzloPCK0hsvxtPVelvftw3zjbHWSkR2km9Z+4uxbDDK/6Zw9B8w==
+
+react@18.2.0, react@^18.2.0:
   version "18.2.0"
   resolved "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
   integrity sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==
@@ -2083,10 +2150,42 @@ wrappy@1:
   resolved "https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz"
   integrity sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==
 
+y-indexeddb@^9.0.11:
+  version "9.0.11"
+  resolved "https://registry.yarnpkg.com/y-indexeddb/-/y-indexeddb-9.0.11.tgz#eb4e4a1816caae9a2c906e64e7b41f78e0d75fda"
+  integrity sha512-HOKQ70qW1h2WJGtOKu9rE8fbX86ExVZedecndMuhwax3yM4DQsQzCTGHt/jvTrFZr/9Ahvd8neD6aZ4dMMjtdg==
+  dependencies:
+    lib0 "^0.2.74"
+
+y-partykit@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/y-partykit/-/y-partykit-0.0.3.tgz#342248067eef3fc9fa7f9da978bbc0614ac62eb2"
+  integrity sha512-RpE526C61Usuz6mFrb2m+cE7cZeWDJfdQ/R8eiFtrXPpOa/2A+jrdxmoow9hJDvETn7Aot7IjRWZehB41QPr7A==
+  dependencies:
+    lib0 "^0.2.60"
+    lodash.debounce "^4.0.8"
+    react "^18.2.0"
+    y-protocols "^1.0.5"
+    yjs "^13.5.44"
+
+y-protocols@^1.0.5:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/y-protocols/-/y-protocols-1.0.6.tgz#66dad8a95752623443e8e28c0e923682d2c0d495"
+  integrity sha512-vHRF2L6iT3rwj1jub/K5tYcTT/mEYDUppgNPXwp8fmLpui9f7Yeq3OEtTLVF012j39QnV+KEQpNqoN7CWU7Y9Q==
+  dependencies:
+    lib0 "^0.2.85"
+
 yallist@^4.0.0:
   version "4.0.0"
   resolved "https://registry.npmjs.org/yallist/-/yallist-4.0.0.tgz"
   integrity sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==
+
+yjs@^13.5.44:
+  version "13.6.8"
+  resolved "https://registry.yarnpkg.com/yjs/-/yjs-13.6.8.tgz#0d6cebf4d7e69b08ede5ecf6368ddbd9c7603c2e"
+  integrity sha512-ZPq0hpJQb6f59B++Ngg4cKexDJTvfOgeiv0sBc4sUm8CaBWH7OQC4kcCgrqbjJ/B2+6vO49exvTmYfdlPtcjbg==
+  dependencies:
+    lib0 "^0.2.74"
 
 yocto-queue@^0.1.0:
   version "0.1.0"
