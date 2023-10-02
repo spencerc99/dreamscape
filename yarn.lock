@@ -167,10 +167,10 @@
   dependencies:
     profane-words "^1.5.10"
 
-"@playhtml/react@^0.0.15":
-  version "0.0.15"
-  resolved "https://registry.yarnpkg.com/@playhtml/react/-/react-0.0.15.tgz#a1f5647d5de08ee21d3aa7bec685ceb0b5b7f5d2"
-  integrity sha512-rAEaVfb/FCQQLzTaHxWXGWK8TMFOwsPRht66E/UqLt4qQuR433XM6PEHGOSBHbaj9eS6K1BLVGmNDGwPUTNoZA==
+"@playhtml/react@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@playhtml/react/-/react-0.1.1.tgz#0357f5380b118fb8fa91df23fad03e2ff7a856d5"
+  integrity sha512-EYmUxgCCWSZ7iovoAsycoCqNSYe5wkfqab89uJuxUA7xsidi7oIw1f7ncWXO9KmBKQWsxijywgjNr6v129tLYQ==
   dependencies:
     "@playhtml/common" "^0.0.2"
     classnames "^2.3.2"
