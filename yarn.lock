@@ -167,10 +167,10 @@
   dependencies:
     profane-words "^1.5.10"
 
-"@playhtml/react@^0.0.15":
-  version "0.0.15"
-  resolved "https://registry.yarnpkg.com/@playhtml/react/-/react-0.0.15.tgz#a1f5647d5de08ee21d3aa7bec685ceb0b5b7f5d2"
-  integrity sha512-rAEaVfb/FCQQLzTaHxWXGWK8TMFOwsPRht66E/UqLt4qQuR433XM6PEHGOSBHbaj9eS6K1BLVGmNDGwPUTNoZA==
+"@playhtml/react@^0.0.16":
+  version "0.0.16"
+  resolved "https://registry.yarnpkg.com/@playhtml/react/-/react-0.0.16.tgz#99693cd4cb9a3638039c6cc2360faf25d592c185"
+  integrity sha512-mYGEHUuquNUwdqm9OZsWAToCe80pU827KDIZSCKuCHgJ9/uaEttGUe6nRfHO1shyonVYp8oskyqugYFOEofwRg==
   dependencies:
     "@playhtml/common" "^0.0.2"
     classnames "^2.3.2"
@@ -1850,10 +1850,10 @@ safe-regex-test@^1.0.0:
     get-intrinsic "^1.1.3"
     is-regex "^1.1.4"
 
-sass@^1.59.3:
-  version "1.59.3"
-  resolved "https://registry.npmjs.org/sass/-/sass-1.59.3.tgz"
-  integrity sha512-QCq98N3hX1jfTCoUAsF3eyGuXLsY7BCnCEg9qAact94Yc21npG2/mVOqoDvE0fCbWDqiM4WlcJQla0gWG2YlxQ==
+sass@^1.69.5:
+  version "1.69.5"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.69.5.tgz#23e18d1c757a35f2e52cc81871060b9ad653dfde"
+  integrity sha512-qg2+UCJibLr2LCVOt3OlPhr/dqVHWOa9XtZf2OjbLs/T4VPSJ00udtgJxH3neXZm+QqX8B+3cU7RaLqp1iVfcQ==
   dependencies:
     chokidar ">=3.0.0 <4.0.0"
     immutable "^4.0.0"
