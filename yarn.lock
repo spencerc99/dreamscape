@@ -167,10 +167,10 @@
   dependencies:
     profane-words "^1.5.10"
 
-"@playhtml/react@^0.0.15":
-  version "0.0.15"
-  resolved "https://registry.yarnpkg.com/@playhtml/react/-/react-0.0.15.tgz#a1f5647d5de08ee21d3aa7bec685ceb0b5b7f5d2"
-  integrity sha512-rAEaVfb/FCQQLzTaHxWXGWK8TMFOwsPRht66E/UqLt4qQuR433XM6PEHGOSBHbaj9eS6K1BLVGmNDGwPUTNoZA==
+"@playhtml/react@^0.0.16":
+  version "0.0.16"
+  resolved "https://registry.yarnpkg.com/@playhtml/react/-/react-0.0.16.tgz#99693cd4cb9a3638039c6cc2360faf25d592c185"
+  integrity sha512-mYGEHUuquNUwdqm9OZsWAToCe80pU827KDIZSCKuCHgJ9/uaEttGUe6nRfHO1shyonVYp8oskyqugYFOEofwRg==
   dependencies:
     "@playhtml/common" "^0.0.2"
     classnames "^2.3.2"
@@ -213,10 +213,10 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react@*", "@types/react@18.2.23":
-  version "18.2.23"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.2.23.tgz#60ad6cf4895e93bed858db0e03bcc4ff97d0410e"
-  integrity sha512-qHLW6n1q2+7KyBEYnrZpcsAmU/iiCh9WGCKgXvMxx89+TYdJWRjZohVIo9XTcoLhfX3+/hP0Pbulu3bCZQ9PSA==
+"@types/react@*", "@types/react@18.2.37":
+  version "18.2.37"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.2.37.tgz#0f03af69e463c0f19a356c2660dbca5d19c44cae"
+  integrity sha512-RGAYMi2bhRgEXT3f4B92WTohopH6bIXw05FuGlmJEnv/omEn190+QYEIYxIAuIBdKgboYYdVved2p1AxZVQnaw==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
